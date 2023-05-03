@@ -1,0 +1,6 @@
+/node_modules
+/src/reportWebVitals.ts
+/src/setupTests.ts
+/src/**/*d.ts
+jest.config.js
+babel.config.js

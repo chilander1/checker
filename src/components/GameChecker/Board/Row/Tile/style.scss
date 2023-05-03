@@ -1,0 +1,27 @@
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+
+    &.light {
+        background-color: rgb(239, 231, 231);
+    }
+
+    &.dark {
+        background-color: rgb(183 157 157)
+    }
+
+    &.possibleDrop {
+        background-color: #b8c018;
+    }
+
+    &.canDrop {
+        background-color: #18c018;
+    }
+
+
+
+
+}

@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "standard-with-typescript",
+    "plugin:prettier/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "overrides": [],
+  "parser": "@typescript-eslint/parser", // Specifies the ESLint parser for TypeScript
+  "parserOptions": {
+    "project": "./tsconfig.json", // Point to your TypeScript configuration file
+    "sourceType": "module" // Allows for the use of imports
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "prettier/prettier": "error", // Enable the Prettier rule
+    "@typescript-eslint/dot-notation": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-confusing-void-expression": "off",
+    "@typescript-eslint/no-unused-vars": 1,
+    "@typescript-eslint/strict-boolean-expressions": "off"
+  }
+}
